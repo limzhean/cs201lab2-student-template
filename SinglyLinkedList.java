@@ -104,7 +104,7 @@ public class SinglyLinkedList<E extends Comparable<E>> {
         if (size < 2) return;
 
         ArrayList<E> numbers = new ArrayList<>(); 
-        HashMap<E, Node<E>> valueNode = new HashMap<>(); // stores the value and its node
+        HashMap<E, Node<E>> valueNode = new HashMap<>();
         Node<E> temp = head;
         while (temp != null) {
             E num = temp.getElement();
